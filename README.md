@@ -1,40 +1,36 @@
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?lines=Student+learning+by+building;Exploring+new+technologies&center=true&width=520&height=45">
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=Student+learning+by+building;Exploring+new+technologies&center=true&width=520&height=45&color=58A6FF">
 </p>
 
-# Hi, I'm Shubham
+<h1 align="center">Hi, I'm Shubham 👋</h1>
 
-I'm a student learning technology by building and experimenting.
-This GitHub is a mix of academic work, web projects, and technical explorations.
+<p align="center">
+Student learning technology by building and experimenting.<br>
+A mix of academic work, web projects, and technical explorations.
+</p>
 
-Some things here are polished, others are works in progress.
-Everything reflects an ongoing learning process.
+## 🚧 What I'm doing
 
----
-
-## What I'm doing
-
-- Working on an web-based mental health platform (**MindWell**)
-- Working on ML Projects
+- Working on a web-based mental health platform (**MindWell**)
+- Working on ML projects
 - Learning new technologies through hands-on projects
 
----
+## 🛠 Technologies
 
-## Technologies
-
-<p>
-  <img src="https://skillicons.dev/icons?i=cpp,dsa,git,github,js,react,nodejs,express,html,css,firebase,python,opencv" />
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=cpp,git,github,js,react,nodejs,express,bootstrap,html,css,firebase,opencv,python&theme=dark" />
 </p>
 
----
+<p align="center">
+</p>
 
-## How I approach learning
+## 🧠 How I approach learning
 
-I try to understand systems, then implementing them,
-seeing where they fail,
+I try to understand systems by implementing them,  
+seeing where they fail,  
 and improving them step by step.
 
----
-
-If something here looks unfinished or rough,
-it probably means it's still being explored.
+<p align="center">
+If something here looks unfinished or rough,<br>
+it probably means it's still being explored 🔍
+</p>
