@@ -37,5 +37,6 @@ it probably means it's still being explored 🔍
 
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ShubhamY90/ShubhamY90/output/github-contribution-grid-snake.svg" />
+  <img src="https://raw.githubusercontent.com/ShubhamY90/ShubhamY90/output/snake-dark.svg#gh-dark-mode-only" />
+  <img src="https://raw.githubusercontent.com/ShubhamY90/ShubhamY90/output/snake-light.svg#gh-light-mode-only" />
 </p>
