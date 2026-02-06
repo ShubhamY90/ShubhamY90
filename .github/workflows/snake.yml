@@ -16,7 +16,13 @@ jobs:
             dist/snake-light.svg?palette=github-light
       - name: Add glow effect to dark mode snake
         run: |
-          sed -i 's/<svg/<svg style="filter: drop-shadow(0 0 10px #ff1744) drop-shadow(0 0 20px #ff1744) drop-shadow(0 0 30px #ff1744);"/' dist/snake-dark.svg
+          python3 << 'EOF'
+          with open('dist/snake-dark.svg', 'r') as f:
+              content = f.read()
+          content = content.replace('<svg', '<svg style="filter: drop-shadow(0 0 10px #ff1744) drop-shadow(0 0 20px #ff1744) drop-shadow(0 0 30px #ff1744)"', 1)
+          with open('dist/snake-dark.svg', 'w') as f:
+              f.write(content)
+          EOF
       - name: Push snake
         uses: crazy-max/ghaction-github-pages@v4
         with:
