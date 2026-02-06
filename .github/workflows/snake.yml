@@ -1,4 +1,4 @@
-name: Generate Snake
+name: Generate Cyber Snake
 
 on:
   schedule:
@@ -10,10 +10,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: Platane/snk@v3
+      - name: Generate snake
+        uses: Platane/snk@v3
         with:
           github_user_name: ShubhamY90
-          outputs: dist/github-contribution-grid-snake.svg
+          outputs: |
+            dist/snake-dark.svg?palette=github-dark-dimmed&color_snake=#ff003c,#0066ff&color_dots=#161b22,#220011,#440022,#660033,#990044
+            dist/snake-light.svg?palette=github-light
 
       - name: Push snake
         uses: crazy-max/ghaction-github-pages@v4
